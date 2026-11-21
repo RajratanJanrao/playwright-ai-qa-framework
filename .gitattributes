@@ -1,0 +1,5 @@
+# Use LF line endings for all text files, on every OS.
+# Without this, Git on Windows (core.autocrlf=true) converts files to CRLF in
+# the working copy and shows "LF will be replaced by CRLF" warnings on git add.
+# Forcing LF here keeps line endings the same for Windows, Mac, Linux and CI.
+* text=auto eol=lf
